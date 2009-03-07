@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>[match submatchesForKey: @"${1:thing}"]</string>
+	<key>name</key>
+	<string>Submatches</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>subs</string>
+	<key>uuid</key>
+	<string>3A465884-6B2C-4C62-B27E-99DA4C3EC8E7</string>
+</dict>
+</plist>

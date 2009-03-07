@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Hammer</string>
+	<key>ordering</key>
+	<array>
+		<string>40DF9A3E-23D1-4C58-B99A-2AEB6C6BC050</string>
+		<string>138C1BE6-B818-468B-AF99-1788F7E7656A</string>
+		<string>6E06F730-3D64-40DB-8FC2-6B7394E58F99</string>
+		<string>E8A1EA5D-EDCD-47BF-B6E4-F6B63AE935B2</string>
+		<string>68B587D1-FB65-482C-86A5-1348F82DC9B8</string>
+		<string>9E7B6705-B7F8-487E-B3F7-07AC29C2F863</string>
+		<string>3A465884-6B2C-4C62-B27E-99DA4C3EC8E7</string>
+	</array>
+	<key>uuid</key>
+	<string>0980DB83-4565-4BBA-BCA3-FE96B69AA5EC</string>
+</dict>
+</plist>

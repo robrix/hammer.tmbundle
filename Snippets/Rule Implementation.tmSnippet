@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>-(id)${1:thing}Rule:(HammerRule *)rule didMatch:(HammerMatch *)match {
+	$0
+}</string>
+	<key>name</key>
+	<string>Rule Match</string>
+	<key>scope</key>
+	<string>source.objc, source.objc++</string>
+	<key>tabTrigger</key>
+	<string>mat</string>
+	<key>uuid</key>
+	<string>68B587D1-FB65-482C-86A5-1348F82DC9B8</string>
+</dict>
+</plist>
