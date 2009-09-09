@@ -107,7 +107,13 @@
 				</dict>
 				<dict>
 					<key>match</key>
-					<string>\\\]</string>
+					<string>\\[^\]]</string>
+					<key>name</key>
+					<string>constant.character.character-set.backslash.hammer</string>
+				</dict>
+				<dict>
+					<key>match</key>
+					<string>\\]</string>
 					<key>name</key>
 					<string>constant.character.character-set.escape.hammer</string>
 				</dict>
