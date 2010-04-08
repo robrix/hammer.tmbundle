@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>Rule: ; on =</string>
 	<key>scope</key>
-	<string>source.hammer - string - meta.rule</string>
+	<string>source.hammer - string - meta.rule - comment</string>
 	<key>uuid</key>
 	<string>E8A1EA5D-EDCD-47BF-B6E4-F6B63AE935B2</string>
 </dict>
