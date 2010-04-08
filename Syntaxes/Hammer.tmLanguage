@@ -61,6 +61,13 @@
 	</array>
 	<key>repository</key>
 	<dict>
+		<key>EOF</key>
+		<dict>
+			<key>match</key>
+			<string>@EOF</string>
+			<key>name</key>
+			<string>keyword.operator.EOF.hammer</string>
+		</dict>
 		<key>alternation</key>
 		<dict>
 			<key>match</key>
@@ -325,6 +332,10 @@
 				<dict>
 					<key>include</key>
 					<string>#character</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#EOF</string>
 				</dict>
 				<dict>
 					<key>include</key>
