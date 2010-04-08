@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>[match submatchesForKey: @"${1:thing}"]</string>
 	<key>name</key>
-	<string>Submatches</string>
+	<string>Builder: Submatches</string>
 	<key>scope</key>
 	<string>source.objc, source.objc++</string>
 	<key>tabTrigger</key>
