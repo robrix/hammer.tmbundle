@@ -68,6 +68,13 @@
 			<key>name</key>
 			<string>keyword.operator.logical.alternation.hammer</string>
 		</dict>
+		<key>character</key>
+		<dict>
+			<key>match</key>
+			<string>\.</string>
+			<key>name</key>
+			<string>keyword.operator.character.hammer</string>
+		</dict>
 		<key>character_set</key>
 		<dict>
 			<key>begin</key>
@@ -202,6 +209,38 @@
 			<key>name</key>
 			<string>comment.line.double-slash.hammer</string>
 		</dict>
+		<key>literal_group</key>
+		<dict>
+			<key>begin</key>
+			<string>\(\?/</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.group.literal.begin.hammer</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>\)</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.group.literal.end.hammer</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>meta.group.literal.hammer</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#rule_body</string>
+				</dict>
+			</array>
+		</dict>
 		<key>missing_terminator</key>
 		<dict>
 			<key>begin</key>
@@ -285,7 +324,15 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#character</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#named_subrule</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#literal_group</string>
 				</dict>
 				<dict>
 					<key>include</key>
